@@ -16,6 +16,11 @@ public class VocabularyTable {
         integerList.add(i);
         n+=1;
     }
+    public void insert(String s){
+        stringList.add(s);
+        integerList.add(0);
+        n+=1;
+    }
     public String stringAt(int i){
         return stringList.get(i);
     }

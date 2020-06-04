@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="712a41ae-11a9-4021-9c84-403354e13d9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SensitiveVocabularyAnalysis/VocabularyTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SensitiveVocabularyAnalysis/VocabularyTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1590126179291" duration="26000" />
       <workItem from="1590126654159" duration="342000" />
       <workItem from="1591255153858" duration="1214000" />
-      <workItem from="1591257935215" duration="6477000" />
+      <workItem from="1591257935215" duration="7017000" />
     </task>
     <task id="LOCAL-00001" summary="update ACM">
       <created>1591263466725</created>
@@ -94,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591263466725</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update ACM">
+      <created>1591264503955</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591264503955</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,10 +125,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591263209440" />
-    <state x="517" y="117" key="CommitChangelistDialog2" timestamp="1591263466228">
+    <state x="517" y="117" key="CommitChangelistDialog2" timestamp="1591264503506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591263466228" />
+    <state x="517" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591264503506" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1590126708370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
