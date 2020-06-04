@@ -18,11 +18,12 @@ class node{
 
 public class ACM{
 
-    node rt;
+    private node rt;
     private StringBuilder sb;
     private VocabularyTable vt;
 
     ACM(VocabularyTable t){
+        rt = new node();
         for(int i=0;i<t.size();++i){
             insert(t.stringAt(i));
         }
