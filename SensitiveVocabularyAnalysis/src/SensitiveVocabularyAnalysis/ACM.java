@@ -51,15 +51,25 @@ public class ACM{
                 cur = cur - 1;
             }
             if(u.nxt.containsKey(c))u=u.nxt.get(c);
-            else u = rt;
-
-            if(u.isWord){
+            else {
                 u = rt;
-                while(cur>0){
-                    cur = cur - 1;
-                    res.deleteCharAt(res.length()-1);
+                cur = 0;
+            }
+
+            node p = u;
+            int tmp=cur;
+            while (p!=rt){
+                if(p.isWord){
+                    cur = 0;
+                    u = rt;
+                    for(int j=0;j<tmp;++j){
+                        res.deleteCharAt(res.length()-1);
+                    }
+                    if(res.length()==0||res.charAt(res.length()-1)!='*')res.append("**");
+                    break;
                 }
-                if(res.length()==0||res.charAt(res.length()-1)!='*')res.append("**");
+                tmp -= 1;
+                p = p.fail;
             }
         }
         return res.toString();

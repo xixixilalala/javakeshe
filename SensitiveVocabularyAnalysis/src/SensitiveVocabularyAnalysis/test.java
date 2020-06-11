@@ -8,6 +8,6 @@ public class test {
         vt.insert("b");
         sdi.build(vt);
         System.out.println(sdi.solve("abcabcaabbcc"));
-        System.out.println(sdi.desensitize("bbcabbbbc"));
+        System.out.println(sdi.desensitize("abcabcaabbcc"));
     }
 }
