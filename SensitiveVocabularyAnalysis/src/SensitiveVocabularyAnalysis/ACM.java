@@ -78,17 +78,19 @@ public class ACM{
     private void build(){
         Queue<node> q = new LinkedList<>();
         q.offer(rt);
+        rt.fail = rt;
         while(!q.isEmpty()){
             node u=q.poll();
             u.cnt=0;
             for (Map.Entry<Character,node> e:u.nxt.entrySet()) {
                 Character c = e.getKey();
                 node v = e.getValue();
-                node p = u;
+                node p = u.fail;
                 while(p!=rt&&!p.nxt.containsKey(c)){
                     p = p.fail;
                 }
-                v.fail = p;
+                if(p.nxt.containsKey(c)&&u!=rt)v.fail = p.nxt.get(c);
+                else  v.fail=rt;
                 q.offer(v);
             }
         }
@@ -104,9 +106,12 @@ public class ACM{
             if(u.nxt.containsKey(c))u=u.nxt.get(c);
             else u = rt;
 
-            if(u.isWord){
-                u.cnt += 1;
-                u = rt;
+            node p = u;
+            while (p!=rt){
+                if(p.isWord){
+                    p.cnt+=1;
+                }
+                p = p.fail;
             }
         }
     }
