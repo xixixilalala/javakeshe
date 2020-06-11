@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="712a41ae-11a9-4021-9c84-403354e13d9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SensitiveVocabularyAnalysis/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SensitiveVocabularyAnalysis/VocabularyTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SensitiveVocabularyAnalysis/VocabularyTable.java" afterDir="false" />
     </list>
@@ -53,7 +54,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.test (1)">
     <configuration name="ACM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SensitiveVocabularyAnalysis.ACM" />
       <module name="SensitiveVocabularyAnalysis" />
@@ -67,8 +68,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SensitiveVocabularyAnalysis.test" />
+      <module name="SensitiveVocabularyAnalysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SensitiveVocabularyAnalysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="SensitiveVocabularyAnalysis" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test (1)" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.ACM" />
       </list>
     </recent_temporary>
@@ -86,7 +109,10 @@
       <workItem from="1590126179291" duration="26000" />
       <workItem from="1590126654159" duration="342000" />
       <workItem from="1591255153858" duration="1214000" />
-      <workItem from="1591257935215" duration="7017000" />
+      <workItem from="1591257935215" duration="7859000" />
+      <workItem from="1591436165093" duration="2597000" />
+      <workItem from="1591702896979" duration="9000" />
+      <workItem from="1591856233148" duration="1918000" />
     </task>
     <task id="LOCAL-00001" summary="update ACM">
       <created>1591263466725</created>
@@ -102,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591264503955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update ACM">
+      <created>1591265120831</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591265120831</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,50 +158,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1591263209440" />
-    <state x="517" y="117" key="CommitChangelistDialog2" timestamp="1591264503506">
+    <state x="517" y="117" key="CommitChangelistDialog2" timestamp="1591858387415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="517" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591264503506" />
+    <state x="517" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1591858387415" />
     <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1590126708370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590126708370" />
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1591263397477">
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1591858115017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591263397477" />
-    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1591263397477">
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591858115017" />
+    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1591858115017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591263397477" />
-    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1591263397477">
+    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591858115017" />
+    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1591858115016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591263397477" />
-    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1591263397477">
+    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591858115016" />
+    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1591858115017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591263397477" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591262216532">
+    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591858115017" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1591265910247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591262216532" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1591262216532">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591265910247" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1591265910247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591262216532" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1591262216532">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591265910247" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1591265910247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591262216532" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1591262216532">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591265910247" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1591265910247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591262216532" />
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1591257944266">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591265910247" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1591702898575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591257944266" />
+    <state x="652" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1591702898575" />
     <state x="658" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591257959713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

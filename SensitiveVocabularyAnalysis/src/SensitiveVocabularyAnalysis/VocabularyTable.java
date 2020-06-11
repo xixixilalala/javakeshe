@@ -30,4 +30,11 @@ public class VocabularyTable {
     public int size(){
         return n;
     }
+    public String toString(){
+        StringBuilder res = new StringBuilder();
+        for(int i=0;i<n;++i){
+            res.append(stringList.get(i)).append(":").append(intAt(i)).append("\n");
+        }
+        return res.toString();
+    }
 }
