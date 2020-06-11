@@ -30,12 +30,39 @@ public class ACM{
         build();
     }
 
-   public VocabularyTable solve(String s){
+    public VocabularyTable solve(String s){
         match(s);
         vt = new VocabularyTable();
         sb = new StringBuilder();
         dfs(rt);
         return vt;
+    }
+
+    public String desensitize(String s){
+        StringBuilder res=new StringBuilder();
+        int cur=0;
+        node u = rt;
+        for(int i=0;i<s.length();++i){
+            Character c = s.charAt(i);
+            res.append(c);
+            cur = cur + 1;
+            while(u!=rt&&!u.nxt.containsKey(c)){
+                u = u.fail;
+                cur = cur - 1;
+            }
+            if(u.nxt.containsKey(c))u=u.nxt.get(c);
+            else u = rt;
+
+            if(u.isWord){
+                u = rt;
+                while(cur>0){
+                    cur = cur - 1;
+                    res.deleteCharAt(res.length()-1);
+                }
+                if(res.length()==0||res.charAt(res.length()-1)!='*')res.append("**");
+            }
+        }
+        return res.toString();
     }
 
     private void insert(String s){

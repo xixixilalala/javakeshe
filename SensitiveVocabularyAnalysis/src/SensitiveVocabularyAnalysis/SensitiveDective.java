@@ -13,4 +13,9 @@ public class SensitiveDective implements SensitiveDectiveInterface {
     public VocabularyTable solve(String s) {
         return acm.solve(s);
     }
+
+    @Override
+    public String desensitize(String s) {
+        return acm.desensitize(s);
+    }
 }

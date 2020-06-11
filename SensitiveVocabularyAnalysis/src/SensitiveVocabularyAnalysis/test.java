@@ -7,7 +7,7 @@ public class test {
         vt.insert("abbb");
         vt.insert("bbc");
         sdi.build(vt);
-        VocabularyTable res = sdi.solve("bbcabbbbc");
-        System.out.println(res);
+        System.out.println(sdi.solve("bbcabbbbc"));
+        System.out.println(sdi.desensitize("bbcabbbbc"));
     }
 }
