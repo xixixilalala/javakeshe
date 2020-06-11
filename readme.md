@@ -11,6 +11,8 @@ ACM 提供一个AC自动机类，提供两个public的成员函数：构造函�
 
 *待升级的功能：String filter(String s) 传入一个待过滤字符串，返回一个按照屏蔽规则将所有敏感词置为\*\*的字符串。*
 
+已经实现 String sensitize(String) s 传入一个代过滤字符串，返回一个按照屏蔽规则将所有敏感词置为\*\*的字符串。
+
 ### SensitiveDectiveInterface
 
 SensitiveDectiveInterface 提供一个接口，build(VocabularyTable vt)用vt构造AC自动鸡，solve(String s)输入待检测字符串，返回一个敏感词表。
